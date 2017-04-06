@@ -1,0 +1,81 @@
+html, body{
+    background-color:#ffffff;
+    font-family:"Baskerville"; font-weight: lighter;
+}
+
+#title{
+    padding:20px;
+    font-size:20px;
+    color:#ffffff;
+}
+#subtitles{
+    color:black;
+    position:absolute;
+    left:200px;
+    top:50px;
+    width:400px;
+    font-size:30px;
+}
+
+#map{
+    z-index:-1;
+    color:#ffffff; 
+    background: #b4d7de; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#b4d7de, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#b4d7de, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#b4d7de, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#b4d7de, #ffffff); /* Standard syntax (must be last) */
+}
+#charts{
+    background-color:#ffffff;
+    padding:20px;
+    margin-left:20px;
+    
+}
+.d3-tip{
+    border-radius:3px;
+    background-color:rgba(255,255,255,.8);
+    font-size:11px;
+    padding:5px;
+}
+.chartHeader{
+    color:red;
+    font-size:36px;
+}
+#menu{
+    padding:10px;
+    color:#ffffff;
+    background-color:#b4d7de;
+    position:fixed;
+    top:10px;
+    right:10px;
+}
+
+.chartGroup{
+    font-size:30px;
+    padding-top:20px;
+    padding-left:10px;
+    color:orange; 
+}
+.chartPairHeader{
+    font-size:18px;
+    padding-left:10px;
+}
+.vertical-text {
+	writing-mode: tb-rl;
+    font-size:9px;
+}
+.chartTitle{
+    font-size:16px;
+    color:red;
+}
+.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
